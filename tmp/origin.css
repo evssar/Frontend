@@ -12,7 +12,7 @@
 .responsive-box::before {
 	content: "";
 	display: block;
-	padding-top: calc(60%*3*2.3);
+	padding-top: 60%;
 }
 
 #content {
@@ -22,29 +22,26 @@
 	right: 0;
 	bottom: 0;
 	background-color: #dbe2ec;
-	font-size: 3.0vw;
 }
 
 .wrapper {
 	padding: 0;
 	margin: 0;
 	width: 80%;
-	height: calc(65%/2.3);
+	height: 65%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	-webkit-transform: translate(-50%,-160%);
-	transform: translate(-50%,-160%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 }
 
 .item-wrapper {
 	margin: 0, auto;
 	display: inline-block;
 	vertical-align: top;
-	width: calc(100%/1);
+	width: calc(100%/3);
 	height: 100%;
-	text-align: center;
-	margin-bottom: 10%;
 	text-align: center;
 }
 
@@ -54,6 +51,14 @@
 	height: 100%;
 	background-color: white;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
 }
 
 .item-content {
@@ -75,8 +80,8 @@
 	top: 40%;
 	left: 10%;
 	text-align: left;
-	font: bold 0.6em Arial;
-	letter-spacing: 0.1em;
+	font: bold 0.6vw Arial;
+	letter-spacing: 0.1vw;
 	color: white;
 }
 
@@ -85,7 +90,7 @@
 	top: 44%;
 	left: 10%;
 	text-align: left;
-	font: bold 1.9em Arial;
+	font: bold 1.9vw Arial;
 	line-height: 1.4;
 	color: white;
 }
@@ -95,7 +100,7 @@
 	top: 87%;
 	left: 10%;
 	text-align: left;
-	font: bold 0.7em Arial;
+	font: bold 0.7vw Arial;
 }
 
 .menu {
@@ -117,7 +122,7 @@
 	left: calc(100%*(100/10)/(100/3));
 	top: 50%;
 	transform: translate(0,-50%);
-	font: bold 0.8em Arial;
+	font: bold 0.8vw Arial;
 }
 
 .menu-item img {
@@ -134,7 +139,7 @@
 	height: 100%;
 	padding: 10% 9% 10% 8%;
 	text-align: left;
-	font: 0.93em Time New Roman;
+	font: 0.93vw Time New Roman;
 	line-height: 1.8;
 	background-color: #f7f8f9;
 	color: #7a8188;
@@ -142,7 +147,7 @@
 
 #middle-content:first-letter {
 	font-family: GeoSlab703 Md BT;
-	font-size: 6.0em;
+	font-size: 6.0vw;
 	display: block;
 	margin-right: 5%;
 	float: left;
@@ -166,7 +171,7 @@
 	position: absolute;
 	left:15%;
 	top: 75%;
-	font: bold 0.68em Verdana;
+	font: bold 0.68vw Verdana;
 	color: black;
 	margin: 0;
 }
@@ -208,19 +213,19 @@
 .login {
 		display: inline-block;
 		vertical-align: top;
-		font: bold 0.65em Verdana;
+		font: bold 0.65vw Verdana;
 		color: black;
 }
 
 .time {
 		display: inline-block;
 		vertical-align: top;
-		font: 0.65em Time New Roman;
+		font: 0.65vw Time New Roman;
 		color: #7a8188;
 }
 
 .message-content {
-		font: 0.75em Time New Roman;
+		font: 0.75vw Time New Roman;
 		line-height: 1.7;
 		color: #7a8188;
 }
